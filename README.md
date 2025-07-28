@@ -86,7 +86,7 @@ kafka-messaging-task/
 
 ```bash
 # 1️⃣ Clone this repo
-git clone https://github.com/your-username/kafka-nestjs-ms.git
+git clone https://github.com/eDenxGT/kafka-nestjs-ms.git
 cd kafka-messaging-task
 
 # 2️⃣ Install dependencies
@@ -134,7 +134,7 @@ kafka-topics --bootstrap-server localhost:9092 --list
 
 ```json
 {
-	"from": "client-a",
+    "from": "client-a",
 	"to": "client-b",
 	"message": "Hello there!"
 }
@@ -166,22 +166,9 @@ kafka-topics --bootstrap-server localhost:9092 --list
 
 ---
 
-## 🧰 TODOs
-
--   Kafka Producer & Consumer Setup
--   Global Validation + Exception Filtering
--   DLQ Handling
--   MongoDB Integration
--   Dockerization
--   Deployment (EC2 / Render / Vercel)
--   Retry Strategy Enhancements
-
----
-
 ## 💡 Deployment Options
 
 -   🌍 EC2 (recommended for full control)
--   ☁️ Vercel (for frontend)
 -   ☁️ MongoDB Atlas for cloud DB
 -   ☁️ Render / Railway (alternatives)
 
@@ -189,11 +176,5 @@ kafka-topics --bootstrap-server localhost:9092 --list
 
 ## 👨‍💻 Author
 
-eDen (aka Aadil)
-
----
-
-## 📸 Screenshots & Demo
-
--   Add demo video link here
--   Add deployment URL if applicable (e.g., Vercel or EC2)
+**[eDenGT](https://github.com/eDenxGT)** (Aadil)  
+Passionate backend engineer & open-source enthusiast
