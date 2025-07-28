@@ -39,11 +39,12 @@ export class MessagesService implements OnModuleInit {
   }
 
   async handleIncomingMessage(payload: MessageEntity): Promise<void> {
-    const customError = true;
-    if (customError)
-      throw new BadRequestException(
-        `CUSTOM ERROR THROWed at ${MessagesService.name}`,
-      );
+    // ? Uncomment this to test Retry & DLQ functionality
+    // const customError = true;
+    // if (customError)
+    //   throw new BadRequestException(
+    //     `CUSTOM ERROR THROWed at ${MessagesService.name}`,
+    //   );
 
     if (payload.to !== 'client-b') {
       this.logger.warn(
