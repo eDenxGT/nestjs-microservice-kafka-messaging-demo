@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Env files
+.env
+.env.*
+
+# Logs
+npm-debug.log
+yarn-error.log
+*.log
+
+# Git and editor configs
+.git
+.gitignore
+.vscode
+.idea
+.DS_Store
+
+# Docker configs
+Dockerfile
+docker-compose*.yml
+
+# Tests (optional)
+test
+*.spec.ts
+coverage
