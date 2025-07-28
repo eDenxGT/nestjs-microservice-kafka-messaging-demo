@@ -1,10 +1,4 @@
-import {
-  BadRequestException,
-  Inject,
-  Injectable,
-  Logger,
-  OnModuleInit,
-} from '@nestjs/common';
+import { Inject, Injectable, Logger, OnModuleInit } from '@nestjs/common';
 import { Message, MessageDocument } from './schemas/message.schema';
 import { Model } from 'mongoose';
 import { MessageEntity } from './dto/message.dto';
