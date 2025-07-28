@@ -135,8 +135,8 @@ kafka-topics --bootstrap-server localhost:9092 --list
 ```json
 {
     "from": "client-a",
-	"to": "client-b",
-	"message": "Hello there!"
+    "to": "client-b",
+    "message": "Hello there!"
 }
 ```
 
